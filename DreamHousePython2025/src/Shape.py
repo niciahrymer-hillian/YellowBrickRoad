@@ -3,7 +3,7 @@ from tkinter import Canvas
 
 
 class Shape:
-    def __init__(self, canvas: Canvas, x: int = 60, y: int = 50, color = "black", fill = None, line = 2):
+    def __init__(self, canvas: Canvas, x: int = 70, y: int = 70, color = "blue", fill = None, line = 2):
         self.canvas = canvas
         self.color = color
         self.fill = fill
